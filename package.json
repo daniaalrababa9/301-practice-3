@@ -1,0 +1,25 @@
+{
+  "name": "301-practice-3",
+  "version": "0.0.1",
+  "description": "the .map is returend the same length of the old array,the .filter returend an array with less length of the old one \r # 2- What does the following code do:\r $('button#primary').on('click', function() {\r   placeOrder(shoppingCartItems);\r });\r when we click on the button with the id =primary the function with the placeOrder is gonna executed \r # 3- Write a function that takes an array of names as an argument and outputs each name in uppercase to the console.\r let names=['dania','rahaf','haithem']\r function people(name){\r   name.forEach(val=>{\r     console.log(val.toUpperCase())\r   })\r };\r people(names);",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniaalrababa9/301-practice-3.git"
+  },
+  "author": "dania",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daniaalrababa9/301-practice-3/issues"
+  },
+  "homepage": "https://github.com/daniaalrababa9/301-practice-3#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
